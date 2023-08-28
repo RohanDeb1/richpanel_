@@ -1,0 +1,400 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust to your needs */
+    background-color: #f0f0f0; /* Optional background color */
+  }
+.group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 1051px;
+    height: 700px;
+  }
+  .choose-the-right {
+    position: absolute;
+    top: 28px;
+    left: 357px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+  }
+  .group-inner,
+  .group-item,
+  .rectangle-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: #7994bd;
+    position: absolute;
+    top: 101px;
+    left: 416px;
+    width: 100px;
+    height: 100px;
+  }
+  .group-inner,
+  .rectangle-button {
+    background-color: #1f4d91;
+    top: 120px;
+    left: 132px;
+    border-radius: 59px;
+    width: 187px;
+    height: 62px;
+  }
+  .rectangle-button {
+    background-color: #fff;
+    top: 131px;
+    left: 237px;
+    width: 70px;
+    height: 40px;
+  }
+  .mobile,
+  .monthly,
+  .yearly {
+    background-color: transparent;
+    top: 143px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Inter;
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+  }
+  .yearly {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    position: absolute;
+    left: 251px;
+    color: #1f4d91;
+    text-decoration: none;
+  }
+  .mobile,
+  .monthly {
+    color: #fff;
+  }
+  .monthly {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    position: absolute;
+    left: 161px;
+  }
+  .mobile {
+    left: 442px;
+  }
+  .group-child1,
+  .mobile,
+  .next {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    position: absolute;
+    text-decoration: none;
+  }
+  .group-child1 {
+    background-color: #1f4d91;
+    top: 590px;
+    left: 340px;
+    border-radius: 5px;
+    width: 359px;
+    height: 54px;
+  }
+  .next {
+    background-color: transparent;
+    top: 605px;
+    left: 496px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Inter;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+  }
+  .group-child2 {
+    background-color: #7994bd;
+    top: 101px;
+    left: 542px;
+    width: 100px;
+    height: 100px;
+  }
+  .basic,
+  .group-child2,
+  .group-child3 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    position: absolute;
+  }
+  .basic {
+    background-color: transparent;
+    top: 143px;
+    left: 573px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Inter;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+  }
+  .group-child3 {
+    background-color: #7994bd;
+    top: 101px;
+    left: 668px;
+    width: 100px;
+    height: 100px;
+  }
+  .standard {
+    background-color: transparent;
+    top: 143px;
+    left: 685px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Inter;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+  }
+  .group-child4,
+  .premium,
+  .standard {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    position: absolute;
+  }
+  .group-child4 {
+    background-color: #1f4d91;
+    top: 101px;
+    left: 794px;
+    width: 100px;
+    height: 108.5px;
+  }
+  .premium {
+    background-color: transparent;
+    top: 143px;
+    left: 812px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Inter;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+  }
+  .group-child5,
+  .group-child6,
+  .line-div {
+    position: absolute;
+    top: 256.75px;
+    left: 138.75px;
+    border-top: 0.5px solid #000;
+    box-sizing: border-box;
+    width: 760.5px;
+    height: 0.5px;
+  }
+  .group-child5,
+  .group-child6 {
+    top: 359.75px;
+  }
+  .group-child6 {
+    top: 307.75px;
+  }
+  .monthly-price {
+    position: absolute;
+    top: 227px;
+    left: 146px;
+    color: #000;
+  }
+  .div,
+  .good,
+  .p {
+    position: absolute;
+    top: 227px;
+    left: 450px;
+    font-weight: 600;
+  }
+  .good,
+  .p {
+    top: 276px;
+  }
+  .p {
+    top: 326px;
+    left: 449px;
+  }
+  .computer,
+  .phone,
+  .tablet,
+  .tablet1,
+  .tv,
+  .tv1,
+  .tv2 {
+    position: absolute;
+    top: 394px;
+    left: 451px;
+    font-size: 10px;
+  }
+  .computer,
+  .tablet,
+  .tablet1,
+  .tv,
+  .tv1,
+  .tv2 {
+    top: 441px;
+  }
+  .computer,
+  .tablet1,
+  .tv,
+  .tv1,
+  .tv2 {
+    left: 577px;
+  }
+  .computer,
+  .tv,
+  .tv1,
+  .tv2 {
+    top: 487px;
+    left: 567px;
+  }
+  .tv,
+  .tv1,
+  .tv2 {
+    top: 534px;
+    left: 585px;
+  }
+  .tv1,
+  .tv2 {
+    left: 710px;
+  }
+  .tv2 {
+    top: 535px;
+    left: 836px;
+    color: #1f4d91;
+  }
+  .computer1 {
+    top: 487px;
+    left: 694px;
+  }
+  .computer1,
+  .computer2,
+  .tablet2,
+  .tablet3 {
+    position: absolute;
+    font-size: 10px;
+  }
+  .computer2 {
+    top: 487px;
+    left: 820px;
+    color: #1f4d91;
+  }
+  .tablet2,
+  .tablet3 {
+    top: 441px;
+    left: 703px;
+  }
+  .tablet3 {
+    left: 828px;
+    color: #1f4d91;
+  }
+  .phone1,
+  .phone2,
+  .phone3 {
+    position: absolute;
+    top: 394px;
+    font-size: 10px;
+  }
+  .phone1 {
+    left: 828px;
+    color: #1f4d91;
+  }
+  .phone2,
+  .phone3 {
+    left: 702px;
+  }
+  .phone3 {
+    left: 576px;
+  }
+  .good1,
+  .p1,
+  .p2 {
+    position: absolute;
+    top: 276px;
+    left: 575px;
+    font-weight: 600;
+  }
+  .p1,
+  .p2 {
+    top: 326px;
+  }
+  .p2 {
+    left: 699px;
+  }
+  .best,
+  .khdr {
+    color: #1f4d91;
+  }
+  .khdr {
+    position: absolute;
+    top: 326px;
+    left: 816px;
+    font-weight: 600;
+  }
+  .best {
+    top: 276px;
+    left: 830px;
+  }
+  .best,
+  .better,
+  .div1,
+  .div2,
+  .div3 {
+    position: absolute;
+    font-weight: 600;
+  }
+  .better {
+    top: 276px;
+    left: 699px;
+  }
+  .div1,
+  .div2,
+  .div3 {
+    top: 227px;
+  }
+  .div1 {
+    left: 825px;
+    color: #1f4d91;
+  }
+  .div2,
+  .div3 {
+    left: 698px;
+  }
+  .div3 {
+    left: 573px;
+  }
+  .devices-you-can,
+  .resolution,
+  .video-quality {
+    position: absolute;
+    top: 369px;
+    left: 145px;
+    color: #000;
+  }
+  .resolution,
+  .video-quality {
+    top: 325px;
+  }
+  .video-quality {
+    top: 275px;
+  }
+  .rectangle-parent {
+    position: relative;
+    width: 100%;
+    max-width: 1051px;
+    height: 700px;
+    text-align: center;
+    font-size: 13px;
+    color: #848484;
+  }
+  

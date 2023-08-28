@@ -1,0 +1,191 @@
+.group-child {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f4d91;
+  width: 597px;
+  height: 303px;
+  padding: 20px;
+}
+.mask-group-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 10px;
+  	background-color: #fff;
+  	width: 302px;
+  	height: 161px;
+}
+.mask-group1 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 302px;
+  	height: 161px;
+}
+.mask-group {
+  	position: absolute;
+  	top: 63px;
+  	left: 136px;
+  	width: 302px;
+  	height: 161px;
+}
+.current-plan-details {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	font-weight: 600;
+}
+.mask-group2 {
+  	position: absolute;
+  	top: 77px;
+  	left: 150px;
+  	width: 106px;
+  	height: 13px;
+  	font-size: 11px;
+}
+.basic {
+  	position: absolute;
+  	top: 100px;
+  	left: 151px;
+  	font-size: 9px;
+  	font-weight: 600;
+}
+.phonetablet {
+  	position: absolute;
+  	top: 113px;
+  	left: 151px;
+  	font-weight: 600;
+}
+.your-subscription-has {
+  	position: absolute;
+  	top: 195px;
+  	left: 151px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 271px;
+}
+.mask-group3 {
+  	position: absolute;
+  	top: 128px;
+  	left: 151px;
+  	width: 81px;
+  	height: 19px;
+  	font-size: 16px;
+}
+.mask-group-item {
+  	position: absolute;
+  	top: -1px;
+  	left: -1px;
+  	width: 67px;
+  	height: 20px;
+}
+.mask-group4 {
+  	cursor: pointer;
+  	border: none;
+  	padding: 0;
+  	background-color: transparent;
+  	position: absolute;
+  	top: 158px;
+  	left: 151px;
+  	width: 65px;
+  	height: 18px;
+}
+.cancel {
+  	cursor: pointer;
+  	border: none;
+  	padding: 0;
+  	background-color: transparent;
+  	position: absolute;
+  	top: 78px;
+  	left: 398px;
+  	font-size: 8px;
+  	font-weight: 600;
+  	font-family: Inter;
+  	color: #000;
+  	text-align: left;
+  	display: inline-block;
+}
+.mask-group5 {
+  	position: absolute;
+  	top: 162px;
+  	left: 159px;
+  	width: 49px;
+  	height: 10px;
+  	font-size: 8px;
+  	color: #174282;
+}
+.group-item {
+  	position: absolute;
+  	top: 77px;
+  	left: 260px;
+  	border-radius: 2px;
+  	background-color: #c2dcfc;
+  	width: 29px;
+  	height: 13px;
+}
+.active {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 22px;
+  	height: 9px;
+}
+.mask-group6 {
+  	position: absolute;
+  	top: 79px;
+  	left: 263px;
+  	width: 22px;
+  	height: 9px;
+  	color: #1f4d91;
+}
+.rectangle-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1f4d91;
+}
+
+.change-plan{
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  background-color: transparent;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #174282;
+  text-align: left;
+  display: inline-block;
+  border: 1px solid #174282; 
+  border-radius: 5px; 
+  margin-top: -3px;
+  margin-left: -9px;
+}
+
+.change-plan-link {
+  text-decoration: none !important;
+  color: #1f4d91;
+} 
+
+.change-plan span {
+  margin-right: 5px;
+}
+
+
+.phonetablet,
+.your-subscription-has {
+  font-size: 8px; /* Increase the font size */
+}
+
+.basic{
+  font-size: 10px;
+}
+
+.active {
+  font-size: 8px; /* Increase the font size */
+}

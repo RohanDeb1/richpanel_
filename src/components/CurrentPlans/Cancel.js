@@ -1,0 +1,46 @@
+import React from 'react';
+import styles from './Cancel.module.css';
+import { Link } from 'react-router-dom';
+
+
+const Cancel = () => {
+  	
+  	return (
+      <div className={styles['rectangle-parent']}>
+      <div className={styles['group-child']}>
+        <div className={styles['mask-group']}>
+          <div className={styles['mask-group1']}>
+            <div className={styles['mask-group-child']} />
+          </div>
+        </div>
+        <div className={styles['mask-group2']}>
+          <div className={styles['current-plan-details']}>Current Plan Details</div>
+        </div>
+        <div className={styles['basic']}>Basic</div>
+        <div className={styles['phonetablet']}>Phone+Tablet</div>
+        <div className={styles['your-subscription-has']}>
+          Your subscription has started on May 13th, 2023 and will auto renew on June 12th, 2024.
+        </div>
+        <div className={styles['mask-group3']}>
+          <div className={styles['current-plan-details']}>₹ 2,000/yr</div>
+        </div>
+        <button className={styles['mask-group4']}>
+          
+        </button>
+        <div className={styles['mask-group5']}>
+          <button className={styles['change-plan']}>
+          <Link to="/Home" className={styles['change-plan-link']}>
+            <span>Change</span>Plan
+          </Link>
+          </button>
+        </div>
+        <div className={styles['group-item']} />
+        <div className={styles['mask-group6']}>
+          <div className={styles['active']}>cancelled</div>
+        </div>
+      </div>
+    </div>
+    );
+};
+
+export default Cancel;
